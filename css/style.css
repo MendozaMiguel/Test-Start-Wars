@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#firstSection {
+  display: flex;
+}
+
+#firstSection p {
+  font-size: 18px;
+}
+
+/* RIGHT SECTION */
+
+#rightSection {
+  width: 20%;
+}
+
+#rightSection h3 {
+  font-weight: bold;
+}
+
+#rightSection p {
+  text-align: left;
+}
+
+/* RIGHT SECTION */
+
+/* LEFT SECTION */
+
+#leftSection {
+  width: 50%;
+}
+
+#img-battlefront {
+  /* background-image: url('../assets/r2d2_c3p0.jpg'); */
+  background-image: url('../Assets/ad.jpg');
+  height: 100vh;
+  width: 50%;
+  margin-top: 2vh;
+  background-repeat: no-repeat;
+  margin-left: 10%;
+}
+
+/* LEFT SECTION */
+
+/* FIRST SECTION */
+
+/* ----------------------------------------------------------------------------- */
+
+/* SECOND SECTION */
+
+#secondSection {
+  margin-top: 2vh;
+  text-align: center;
+}
+
+#secondSection p {
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+#image-kiloren {
+  height: 90vh;
+  width: 100%;
+  background-image: url('../Assets/kiloren.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 80vh;
+  background-attachment: fixed;
+}
+
+#items {
+  display: flex;
+}
+
+#img-r2d2_c3p0 {
+  background-image: url('../Assets/r2d2_c3p0.jpg');
+  width: 23%;
+  margin-right: 40px;
+  height: 35vh;
+  background-repeat: no-repeat;
+}
+
+.description {
+  text-align: left;
+}
+
+.padding-bot {
+  padding-bottom: 2vh;
+}
+
+#img-stormtroopers {
+  width: 100%;
+  height: 50vh;
+  background-image: url('../Assets/stormtroopers-2x.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.center-items {
+  padding: 0px 0px 0px 30%
+}

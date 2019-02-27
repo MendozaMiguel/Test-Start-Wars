@@ -1,0 +1,56 @@
+footer{
+  background-image: url("../assets/darthvader_2x.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 60vh;
+  color: darkgray;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+#allRights-title{
+  width: 100%;
+  padding-top: 10vh;
+}
+
+#allRights-title p{
+  text-align: center;
+  margin: 0px;
+  color:darkgray;
+}
+ footer a{
+  color:darkgray !important ;
+  margin-bottom: 10px; 
+}
+
+#endFooter{
+display: flex;
+justify-content: space-around;
+align-items:center;
+height: 45vh;
+}
+
+#leftFooter{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+#centerFooter{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+#rightFooter{
+text-align: center;
+padding-bottom: 70px;
+}
+#img-socials{
+display: flex;
+justify-content: space-around
+}
+#endFooter a{
+  text-decoration: none
+}
