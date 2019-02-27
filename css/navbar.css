@@ -20,6 +20,10 @@ nav {
   height: 50px;
 }
 
+#mobile{
+  display: none;
+}
+
 /* PARTIE HEADER */
 
 header {

@@ -1,5 +1,19 @@
 @media screen and (min-width: 320px) and (max-width: 1200px) {
-  /* nav ul {
+  #mobile{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  #mobile img {
+    width: 30px;
+    height: 25px;
+  }
+  nav ul {
     display: flex;
     flex-direction: column;
     background-image: url('../assets/header-bg.png');
@@ -10,7 +24,10 @@
   }
   nav ul li a {
     font-size: 20px;
-  } */
+  }
+  .mobileHidden{
+    display: none;
+  }
 }
 
 /* PARTIE HEADER */
