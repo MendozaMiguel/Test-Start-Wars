@@ -3,6 +3,16 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+#mytest {
+  height: 600px;
+  width: 300px;
+  border: 2px solid green;
+  display: none;
+  position: fixed;
+  top: 200px;
+  text-align: center;
+}
+
 #firstSection {
   display: flex;
 }

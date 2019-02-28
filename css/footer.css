@@ -1,4 +1,4 @@
-footer{
+footer {
   background-image: url("../assets/darthvader_2x.jpg");
   background-repeat: no-repeat;
   background-size: 100% 60vh;
@@ -9,48 +9,51 @@ footer p {
   font-size: 14px;
 }
 
-#allRights-title{
+#allRights-title {
   width: 100%;
   padding-top: 10vh;
 }
 
-#allRights-title p{
+#allRights-title p {
   text-align: center;
   margin: 0px;
-  color:darkgray;
-}
- footer a{
-  color:darkgray !important ;
-  margin-bottom: 10px; 
+  color: darkgray;
 }
 
-#endFooter{
-display: flex;
-justify-content: space-around;
-align-items:center;
-height: 45vh;
+footer a {
+  color: darkgray !important;
+  margin-bottom: 10px;
 }
 
-#leftFooter{
-display: flex;
-flex-direction: column;
-text-align: center;
+#endFooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 45vh;
 }
 
-#centerFooter{
-display: flex;
-flex-direction: column;
-text-align: center;
+#leftFooter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-#rightFooter{
-text-align: center;
-padding-bottom: 70px;
+#centerFooter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-#img-socials{
-display: flex;
-justify-content: space-around
+
+#rightFooter {
+  text-align: center;
+  padding-bottom: 70px;
 }
-#endFooter a{
+
+#img-socials {
+  display: flex;
+  justify-content: space-around
+}
+
+#endFooter a {
   text-decoration: none
 }

@@ -16,37 +16,36 @@
 </head>
 
 <body>
-  <nav>
-    <ul class="mobileHidden" id="hidden">
-      <li>
-        <a href="#">Le coté lumineux</a>
-      </li>
-      <li>
-        <a href="#">Le coté obscur</a>
-      </li>
-      <li>
-        <a href="#">L’empire</a>
-      </li>
-      <li>
-        <a href="#">Les droïdes</a>
-      </li>
-      <li>
-        <a href="#">Les ewoks</a>
-      </li>
-      <li>
-        <a href="#">Jabba le hutt</a>
-      </li>
-    </ul>
-    <button id="mobile"><img src="../assets/menu.png" alt="menu-mobile" onclick="afficherMenu()"></button>
-  </nav>
-
   <header>
+      <div id="mobile-nav">
+
+          <!-- NOFRILLS MOBILE MENU -->
+          <nav id="mobile-menu">
+    
+            <!-- Optionally replace with your own toggle icon -->
+            <img id="nofrills-toggle" height="20px" src="Assets/menu.png"/>
+    
+            <!-- Place desired menu links in here -->
+            <div id="dropdown-items">
+              <a href="#">Le coté lumineux</a>
+              <a href="#">Le coté obscur</a>
+              <a href="#">L’empire</a>
+              <a href="#">Les droïdes</a>
+              <a href="#">Les ewoks</a>
+              <a href="#">Jabba le hutt</a>
+            </div>
+          </nav>
+        </div>
+
     <div id="background-logo" class="parallax"></div>
     <div id="logo" class="parallax"></div>
   </header>
 
   <main>
     <section id="firstSection">
+      <div id="mytest">
+        <p>MA PUB</p>
+      </div>
       <div id="rightSection" class="center-items">
         <h3>Star Wars, The Force Awakens</h3>
         <p>Plus de 30 ans après la bataille d'Endor, la <br> galaxie n'en a pas fini avec la tyrannie et <br>
